@@ -24,4 +24,4 @@ The application uses the following dependencies:
 
 ## Metrics Export
 
-The application exports metrics to Signoz, a cloud-native observability platform. You can view the metrics in the Signoz dashboard to monitor the performance of the application. but you can export to any OpenTelemetry compatible service. 
+The application exports metrics to Signoz, a cloud-native observability platform. You can view the metrics in the Signoz dashboard to monitor the performance of the application. To install Signoz using docker, you can follow the instructions provided in the [Signoz documentation](https://signoz.io/docs/install/docker/). Signoz can also be replaced with any OpenTelemetry compatible service.
