@@ -20,3 +20,8 @@ The application uses the following dependencies:
 - `google.golang.org/grpc/credentials`: gRPC credentials for secure communication
 - `go.opentelemetry.io/otel/exporters/otlp/otlptrace`: OpenTelemetry exporter for tracing data
 - `go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc`: OpenTelemetry exporter for tracing data over gRPC
+
+
+## Metrics Export
+
+The application exports metrics to Signoz, a cloud-native observability platform. You can view the metrics in the Signoz dashboard to monitor the performance of the application. but you can export to any OpenTelemetry compatible service. 
